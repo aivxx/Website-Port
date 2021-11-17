@@ -29,10 +29,19 @@ html {
 
 .container-fluid {
   background-color: #697e87;
+  @media (min-width: 1024px) {
+    img {
+      max-width: 850px;
+      margin: auto;
+      display: block;
+    }
+  }
 }
 
 img {
-  width: 100%;
+  width: 350px;
+  margin: auto;
+  display: block;
 }
 
 .center {
@@ -355,3 +364,19 @@ a.site-logo {
   /* navbar css for mobile end */
 }
 /* mobile breakpoint end */
+
+@media (min-width: 1000px) {
+  img {
+    max-width: 540px;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    max-width: 850px;
+    margin: auto;
+    display: block;
+  }
+}

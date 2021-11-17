@@ -365,17 +365,9 @@ a.site-logo {
 }
 /* mobile breakpoint end */
 
-@media (min-width: 1000px) {
-  img {
-    max-width: 540px;
-    margin: auto;
-    display: block;
-  }
-}
-
 @media (min-width: 1024px) {
   img {
-    max-width: 850px;
+    width: 600px;
     margin: auto;
     display: block;
   }

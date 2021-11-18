@@ -3,194 +3,56 @@ html {
   background-color: #697e87;
 }
 
-.navigationBar {
-  background-color: #697e87;
-  border: 0px solid #697e87;
-  width: 100%;
-}
-
-.header {
-  color: whitesmoke;
-  background-color: #697e87;
-  text-align: center;
-  font-family: "Reenie Beanie", cursive;
-  font-size: 50px;
-}
-
-.h2 {
-  font-family: "Felipa", cursive;
-  background-color: #697e87;
-  width: 100%;
-  padding: 0 auto;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 40px;
-}
-
-.container-fluid {
-  background-color: #697e87;
-}
-
 img {
-  width: 350px;
+  width: 150px;
   margin: auto;
   display: block;
+  border-radius: 20px;
 }
 
-.center {
-  background-color: #697e87;
-}
-
-#social {
-  background-color: #697e87;
-}
-
-#social ul {
+h1 {
   text-align: center;
-  padding-left: 0px;
-  margin: 0 auto;
+  padding-bottom: 15px;
+  color: whitesmoke;
+  font-family: "Reenie Beanie", cursive;
 }
 
-#social li {
-  display: inline-block;
-  list-style-type: none;
-  margin-left: 5px;
+h3 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  color: whitesmoke;
+  font-family: "Reenie Beanie", cursive;
 }
 
-/** Facebook **/
-
-.facebook {
-  width: 30px;
-  height: 30px;
+p {
+  font-family: "Cabin", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(43, 40, 40, 0.3);
+  border-radius: 20px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.facebook .border {
-  background: transparent;
-  outline: none;
-  color: rgba(255, 255, 255, 0.3);
-  width: 30px;
-  height: 30px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.2s ease-in-out;
+.break {
+  font-size: 25px;
+  font-family: "Road Rage", cursive;
+  color: white;
+  text-align: center;
+  background-color: rgba(43, 40, 40, 0);
+  border-radius: 20px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.facebook .border:hover {
-  background: #3b5998;
-  border-color: #436aaf;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-
-.fa.fa-facebook {
-  font-size: 20px;
-}
-
-/** Github **/
-
-.github {
-  width: 30px;
-  height: 30px;
-}
-
-.github .border {
-  background: transparent;
-  outline: none;
-  color: rgba(255, 255, 255, 0.3);
-  width: 30px;
-  height: 30px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.2s ease-in-out;
-}
-
-.github .border:hover {
-  background: #00aced;
-  border-color: #72c6e6;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-
-.fa.fa-github {
-  font-size: 20px;
-}
-
-/** Instagram **/
-
-.instagram {
-  width: 30px;
-  height: 30px;
-}
-
-.instagram .border {
-  background: transparent;
-  outline: none;
-  color: rgba(255, 255, 255, 0.3);
-  width: 30px;
-  height: 30px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.2s ease-in-out;
-}
-
-.instagram .border:hover {
-  background: #517fa4;
-  border-color: #7495af;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-
-.fa.fa-instagram {
-  font-size: 20px;
-}
-
-/** linkedin **/
-
-.linkedin {
-  width: 30px;
-  height: 30px;
-}
-
-.linkedin .border {
-  background: transparent;
-  outline: none;
-  color: rgba(255, 255, 255, 0.3);
-  width: 30px;
-  height: 30px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.2s ease-in-out;
-}
-
-.linkedin .border:hover {
-  background: #ea4c89;
-  border-color: #ff78ac;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-
-.fa-linked {
-  font-size: 20px;
-}
-
-#social ul li {
-  transition: ease 0.3s;
-}
-
-#social ul:hover > li {
-  opacity: 0.5;
-}
-
-#social ul:hover > li:hover {
-  opacity: 1;
+.contact {
+  font-family: "Cabin", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 10px;
 }
 
 /*nav bar*/
@@ -357,14 +219,3 @@ a.site-logo {
   /* navbar css for mobile end */
 }
 /* mobile breakpoint end */
-
-@media (min-width: 1024px) {
-  img {
-    width: 600px;
-    margin: auto;
-    display: block;
-  }
-  .navbar-area {
-    width: 100px;
-  }
-}

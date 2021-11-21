@@ -222,13 +222,13 @@ a.site-logo {
 
 @media (min-width: 1024px) {
   img {
-    width: 600px;
+    width: 800px;
     margin: auto;
     display: block;
   }
   .navbar-area {
     width: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   p {

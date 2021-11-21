@@ -4,7 +4,7 @@ html {
 }
 
 img {
-  width: 150px;
+  width: 100%;
   margin: auto;
   display: block;
   border-radius: 20px;
@@ -219,3 +219,36 @@ a.site-logo {
   /* navbar css for mobile end */
 }
 /* mobile breakpoint end */
+
+@media (min-width: 1024px) {
+  img {
+    width: 600px;
+    margin: auto;
+    display: block;
+  }
+  .navbar-area {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  p {
+    width: 52%;
+    margin: auto;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  h1,
+  h3 {
+    font-size: 50px;
+  }
+
+  .break {
+    font-size: 50px;
+  }
+
+  .contact {
+    font-size: 25px;
+    margin-top: 12px;
+  }
+}

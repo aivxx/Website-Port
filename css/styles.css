@@ -32,7 +32,7 @@ html {
 }
 
 img {
-  width: 350px;
+  width: 345px;
   margin: auto;
   display: block;
 }
@@ -85,7 +85,7 @@ img {
 }
 
 .fa.fa-facebook {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /** Github **/
@@ -116,7 +116,7 @@ img {
 }
 
 .fa.fa-github {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /** Instagram **/
@@ -147,7 +147,7 @@ img {
 }
 
 .fa.fa-instagram {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /** linkedin **/
@@ -178,7 +178,7 @@ img {
 }
 
 .fa-linked {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #social ul li {
